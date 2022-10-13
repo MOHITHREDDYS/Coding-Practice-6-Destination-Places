@@ -1,0 +1,65 @@
+/* Write your CSS here */
+
+.main_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+h1 {
+  color: #000000;
+  font-size: 30px;
+  font-family: 'Roboto';
+  text-align: center;
+}
+.search_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 200px;
+  background-color: #f1f5f9;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+input {
+  color: #252627;
+  font-family: 'Open Sans';
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+ul {
+  padding: 0px;
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+  align-items: center;
+}
+
+.image {
+  width: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  ul {
+    justify-content: start;
+  }
+  .main_container {
+    align-items: start;
+    width: 90%;
+    max-width: 900px;
+  }
+  .bg_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+}

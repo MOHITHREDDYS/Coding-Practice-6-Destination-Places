@@ -1,0 +1,22 @@
+/* Write your CSS here */
+li {
+  list-style-type: none;
+  width: 200px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+img {
+  width: 200px;
+}
+
+p {
+  color: #0f172a;
+  font-weight: 600;
+}
+
+@media screen and (min-width: 768px) {
+  li {
+    margin-right: 20px;
+  }
+}
